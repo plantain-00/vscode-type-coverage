@@ -1,6 +1,6 @@
 import * as vscode from 'vscode'
 import * as typeCoverage from 'type-coverage'
-const packageJson = require('./package.json')
+import * as packageJson from './package.json'
 
 const extensionDisplayName = packageJson.displayName
 
