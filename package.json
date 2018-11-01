@@ -1,34 +1,43 @@
 {
-  "name": "type-coverage",
-  "displayName": "type-coverage",
-  "description": "VSCode plugin for type-coverage.",
-  "version": "0.0.1",
-  "publisher": "york-yao",
-  "engines": {
-    "vscode": "^1.28.0"
-  },
-  "categories": [
-    "Linters"
-  ],
-  "activationEvents": [
-    "onLanguage:typescript"
-  ],
-  "main": "./out/extension",
-  "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install"
-  },
-  "devDependencies": {
-    "@types/mocha": "^2.2.42",
-    "@types/node": "^7.0.43",
-    "typescript": "^2.6.1",
-    "vscode": "^1.1.6"
-  },
-  "dependencies": {
-    "type-coverage": "^1.3.1",
-    "vscode-languageclient": "^5.1.1",
-    "vscode-languageserver": "^5.1.0"
-  }
+	"name": "vscode-type-coverage",
+	"displayName": "type-coverage",
+	"description": "VSCode plugin for type-coverage.",
+	"version": "1.0.0",
+	"author": "York Yao",
+	"publisher": "york-yao",
+	"license": "MIT",
+	"homepage": "https://github.com/plantain-00/vscode-type-coverage",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/plantain-00/vscode-type-coverage.git"
+	},
+	"bugs": {
+		"url": "https://github.com/plantain-00/vscode-type-coverage/issues"
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"categories": [
+		"Linters"
+	],
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"main": "./extension",
+	"dependencies": {
+		"type-coverage": "^1.3.2"
+	},
+	"devDependencies": {
+		"@types/node": "^10.12.1",
+		"vscode": "~1.1.21"
+	},
+	"keywords": [
+		"type",
+		"coverage"
+	],
+	"activationEvents": [
+		"onLanguage:typescript"
+	]
 }
