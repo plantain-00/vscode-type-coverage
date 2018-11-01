@@ -1,6 +1,5 @@
 import * as vscode from 'vscode'
 import * as typeCoverage from 'type-coverage'
-import * as path from 'path'
 const packageJson = require('./package.json')
 
 const extensionDisplayName = packageJson.displayName
@@ -9,21 +8,18 @@ let outputChannel: vscode.OutputChannel
 let diagnosticCollection: vscode.DiagnosticCollection
 
 function lint(textDocument?: vscode.TextDocument) {
-  const file = textDocument
-    ? path.relative(vscode.workspace.rootPath!, textDocument.fileName)
+  const files = textDocument
+    ? [textDocument.fileName]
     : undefined
-  typeCoverage.lint(vscode.workspace.rootPath!, true, false).then((result) => {
+  typeCoverage.lint(vscode.workspace.rootPath!, true, false, files).then((result) => {
     const diagnosticsMap = new Map<string, vscode.Diagnostic[]>()
     for (const anyObject of result.anys) {
-      if (file && file !== path.relative(vscode.workspace.rootPath!, anyObject.file)) {
-        continue
-      }
       const diagnostic = new vscode.Diagnostic(
         new vscode.Range(
           new vscode.Position(anyObject.line, anyObject.character),
           new vscode.Position(anyObject.line, anyObject.character + anyObject.text.length)
         ),
-        `The type is 'any'`,
+        `The type of '${anyObject.text}' is 'any'`,
         vscode.DiagnosticSeverity.Information)
       diagnostic.code = anyObject.text
       diagnostic.source = extensionDisplayName
