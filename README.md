@@ -1,6 +1,6 @@
 # vscode-type-coverage
 
-VSCode plugin for type-coverage.
+VSCode plugin for type-coverage<https://github.com/plantain-00/type-coverage>.
 
 [![Dependency Status](https://david-dm.org/plantain-00/vscode-type-coverage.svg)](https://david-dm.org/plantain-00/vscode-type-coverage)
 [![devDependency Status](https://david-dm.org/plantain-00/vscode-type-coverage/dev-status.svg)](https://david-dm.org/plantain-00/vscode-type-coverage#info=devDependencies)
@@ -12,6 +12,10 @@ VSCode plugin for type-coverage.
 ![1.png](./resources/1.png)
 
 ![2.png](./resources/2.png)
+
+## extension url
+
+<https://marketplace.visualstudio.com/items?itemName=york-yao.vscode-type-coverage>
 
 ## known issues
 
