@@ -18,7 +18,7 @@
 		"vscode:prepublish": "npm run build",
 		"build": "tsc",
 		"watch": "tsc --watch",
-		"lint": "tslint *.ts && commitlint --from=HEAD~1 && markdownlint README.md && type-coverage --at-least 93",
+		"lint": "tslint *.ts && commitlint --from=HEAD~1 && markdownlint README.md && type-coverage --at-least 92",
 		"postinstall": "node ./node_modules/vscode/bin/install"
 	},
 	"categories": [
