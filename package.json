@@ -17,6 +17,7 @@
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc",
+		"watch": "tsc --watch",
 		"postinstall": "node ./node_modules/vscode/bin/install"
 	},
 	"categories": [

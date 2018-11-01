@@ -16,8 +16,8 @@ function lint() {
 					new vscode.Position(any.line, any.character),
 					new vscode.Position(any.line, any.character + any.text.length)
 				),
-				any.file,
-				vscode.DiagnosticSeverity.Warning);
+				`The type is 'any'`,
+				vscode.DiagnosticSeverity.Information);
 			diagnostic.code = any.text;
 			diagnostic.source = extensionDisplayName;
 			if (!diagnosticsMap.has(any.file)) {
@@ -25,6 +25,7 @@ function lint() {
 			}
 			diagnosticsMap.get(any.file).push(diagnostic);
 		}
+		diagnosticCollection.clear()
 		for (const [file, diagnostics] of diagnosticsMap) {
 			diagnosticCollection.set(vscode.Uri.file(file), diagnostics);
 		}
