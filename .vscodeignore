@@ -1,2 +1,6 @@
 **/*.ts
 **/tsconfig.json
+**/*.js.map
+.editorconfig
+**/*.yml
+**/*.config.js
