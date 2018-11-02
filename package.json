@@ -29,7 +29,7 @@
   },
   "main": "./extension",
   "dependencies": {
-    "type-coverage": "^1.4.0"
+    "type-coverage": "^1.4.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",

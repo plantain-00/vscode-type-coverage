@@ -19,7 +19,6 @@ VSCode plugin for type-coverage<https://github.com/plantain-00/type-coverage>.
 
 ## known issues
 
-+ seems slow for big project
 + it need a `tsconfig.json` in root directory of project
 
 ## develop
