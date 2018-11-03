@@ -2484,20 +2484,20 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
-type-coverage@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/type-coverage/-/type-coverage-1.4.1.tgz#c85523225b9202cb4c5e17e22d06e9175c00010a"
-  integrity sha512-A6FM7Oi0nHv1w8RFf/7pPpJ/KBc6Si4D1OX2ZfJKBClOvEDdpbDLtTd2zkcVLBre0AAI+I/vxhKFSEh3WQ4eig==
+type-coverage@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/type-coverage/-/type-coverage-1.4.2.tgz#f46cd9e1c894f1a94297f1de567f58d85e89ea5f"
+  integrity sha512-loVoh1YN2mPPGFFGrhlDfutHrug9ChTkklxkyrERbGRByWAqcMqfvQzBs8Ip+YYobvee7CECq4O29SCvKQ8cGg==
   dependencies:
     glob "7.1.3"
     minimist "1.2.0"
     tslib "1.9.3"
-    typescript "3.1.3"
+    typescript "3.1.6"
 
-typescript@3.1.3:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.1.3.tgz#01b70247a6d3c2467f70c45795ef5ea18ce191d5"
-  integrity sha512-+81MUSyX+BaSo+u2RbozuQk/UWx6hfG0a5gHu4ANEM4sU96XbuIyAB+rWBW1u70c6a5QuZfuYICn3s2UjuHUpA==
+typescript@3.1.6:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.1.6.tgz#b6543a83cfc8c2befb3f4c8fba6896f5b0c9be68"
+  integrity sha512-tDMYfVtvpb96msS1lDX9MEdHrW4yOuZ4Kdc4Him9oU796XldPYF/t2+uKoX0BBa0hXXwDlqYQbXY5Rzjzc5hBA==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.5"
