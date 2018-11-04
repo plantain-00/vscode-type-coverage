@@ -2484,10 +2484,10 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
-type-coverage@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/type-coverage/-/type-coverage-1.4.3.tgz#feb44d1ab18060f682c406b1694f4854da780eac"
-  integrity sha512-frLBPUa1R+Kpuf8HTS3mO1HmHOfiVimjwPjz7E8bAvMYlFA0s2wPDp1eaDDFnruVrFjJGoyjX+LfVyD/dnsO/g==
+type-coverage@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/type-coverage/-/type-coverage-1.4.4.tgz#b5523a5bd146846b9b258c779a2ab074d5192001"
+  integrity sha512-mc44JPDBtgbM2IkdDWT8Y1mad8wkpT54kgiBVddDL1pe43ygARKA9+jQfQGqVMsEFEy/7pUtk9tCJnhRXkaO3A==
   dependencies:
     glob "7.1.3"
     minimist "1.2.0"
