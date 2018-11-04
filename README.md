@@ -17,10 +17,6 @@ VSCode plugin for type-coverage<https://github.com/plantain-00/type-coverage>.
 
 <https://marketplace.visualstudio.com/items?itemName=york-yao.vscode-type-coverage>
 
-## known issues
-
-+ it need a `tsconfig.json` in root directory of project
-
 ## develop
 
 1. `yarn`
