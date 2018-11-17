@@ -29,7 +29,7 @@
   },
   "main": "./extension",
   "dependencies": {
-    "type-coverage": "^1.4.5"
+    "type-coverage": "1.5.0"
   },
   "typeCoverage": {
     "atLeast": 97
@@ -37,7 +37,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
     "@commitlint/config-conventional": "^7.1.2",
-    "@types/node": "10.12.5",
+    "@types/node": "10.12.9",
     "markdownlint-cli": "^0.13.0",
     "tslint": "^5.11.0",
     "tslint-config-standard": "^8.0.1",
