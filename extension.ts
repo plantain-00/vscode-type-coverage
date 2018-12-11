@@ -43,7 +43,8 @@ function lint(textDocument?: vscode.TextDocument) {
 export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.workspace.onDidSaveTextDocument((textDocument) => {
-      if (textDocument.languageId === 'typescript') {
+      console.info(textDocument.languageId)
+      if (textDocument.languageId === 'typescript' || textDocument.languageId === 'typescriptreact') {
         lint(textDocument)
       }
     })

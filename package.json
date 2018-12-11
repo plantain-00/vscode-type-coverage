@@ -49,6 +49,7 @@
     "coverage"
   ],
   "activationEvents": [
-    "onLanguage:typescript"
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact"
   ]
 }
