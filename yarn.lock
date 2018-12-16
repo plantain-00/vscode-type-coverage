@@ -2345,10 +2345,10 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
-type-coverage@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/type-coverage/-/type-coverage-1.6.1.tgz#6df8c9050a4fc5c62a7100fda38cbacb6e980b3f"
-  integrity sha512-+RlJ0M5+U2kFW+yGgydTcIa3Q/zzBMbscHp5GvvhWp8OaKscueF03SjyLQul5jrXK08hMsq/DTCCvleiYAYzoA==
+type-coverage@1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/type-coverage/-/type-coverage-1.6.2.tgz#fae92ba5a1bf8df0b7b0c19d2f7f5305f1fb41f0"
+  integrity sha512-ss/YY7NM8ZVdeJlpZYIuvwKo3eL19Ej5BRR/O1PUkPXpqKrGG9Pz4EZlWkkUzXOFRmbwBN3pyW+dNRY4Z65WSA==
   dependencies:
     glob "7.1.3"
     minimist "1.2.0"
