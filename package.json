@@ -29,7 +29,7 @@
   },
   "main": "./extension",
   "dependencies": {
-    "type-coverage": "1.6.2"
+    "type-coverage": "1.7.0"
   },
   "typeCoverage": {
     "atLeast": 97
@@ -41,8 +41,8 @@
     "markdownlint-cli": "^0.13.0",
     "tslint": "5.12.1",
     "tslint-config-standard": "^8.0.1",
-    "tslint-sonarts": "^1.8.0",
-    "vscode": "1.1.26"
+    "tslint-sonarts": "1.9.0",
+    "vscode": "1.1.28"
   },
   "keywords": [
     "type",
