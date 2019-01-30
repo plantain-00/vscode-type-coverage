@@ -26,4 +26,4 @@ VSCode plugin for type-coverage<https://github.com/plantain-00/type-coverage>.
 
 ## known issues
 
-1. Report more errors than the CLI(the CLI result is right): https://github.com/plantain-00/vscode-type-coverage/issues/1
+1. Report more errors than the CLI(the CLI result is right): <https://github.com/plantain-00/vscode-type-coverage/issues/1>
