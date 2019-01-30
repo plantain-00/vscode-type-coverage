@@ -2,7 +2,7 @@
   "name": "vscode-type-coverage",
   "displayName": "type-coverage",
   "description": "VSCode plugin for type-coverage.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "York Yao",
   "publisher": "york-yao",
   "license": "MIT",
