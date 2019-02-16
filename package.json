@@ -35,9 +35,9 @@
     "atLeast": 97
   },
   "devDependencies": {
-    "@commitlint/cli": "7.5.0",
+    "@commitlint/cli": "7.5.2",
     "@commitlint/config-conventional": "7.5.0",
-    "@types/node": "10.12.24",
+    "@types/node": "11.9.4",
     "markdownlint-cli": "^0.13.0",
     "tslint": "5.12.1",
     "tslint-config-standard": "^8.0.1",
