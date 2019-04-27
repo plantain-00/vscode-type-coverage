@@ -1,5 +1,5 @@
 import * as vscode from 'vscode'
-import * as typeCoverage from 'type-coverage'
+import * as typeCoverage from 'type-coverage-core'
 import ts from 'typescript'
 
 import * as packageJson from './package.json'
@@ -13,7 +13,7 @@ function lint(textDocument?: vscode.TextDocument) {
   const files = textDocument
     ? [textDocument.fileName]
     : undefined
-  typeCoverage.lint(vscode.workspace.rootPath!, true, false, files, oldProgram).then((result) => {
+  typeCoverage.lint(vscode.workspace.rootPath!, { files, oldProgram }).then((result) => {
     oldProgram = result.program
     const diagnosticsMap = new Map<string, vscode.Diagnostic[]>()
     for (const anyObject of result.anys) {
