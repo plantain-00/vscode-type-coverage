@@ -1596,10 +1596,10 @@ trim-off-newlines@^1.0.0:
   resolved "https://registry.yarnpkg.com/trim-off-newlines/-/trim-off-newlines-1.0.1.tgz#9f9ba9d9efa8764c387698bcbfeb2c848f11adb3"
   integrity sha1-n5up2e+odkw4dpi8v+sshI8RrbM=
 
-ts-lib-utils@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/ts-lib-utils/-/ts-lib-utils-2.1.0.tgz#458e3b23d38ed4b4db7430c3bf7ccba9b8ce51a6"
-  integrity sha512-tjXgC/3JCVq8L2iTqA4EzOQmLz+qhWA7lRWBMW/PNsO8oFdDV2AE6BmQnTYkd3fktaS3IoLVHKVKINkrTLhQJg==
+ts-lib-utils@^2.2.0-alpha.2:
+  version "2.2.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/ts-lib-utils/-/ts-lib-utils-2.2.0-alpha.2.tgz#098197d36d67486ee106539b8e1ec06b5e51249d"
+  integrity sha512-16v1zpSAgh6vt2wA//E3Gu6jO6wSUGFMG2Vr69/qlSe9o4/Y2OWDcL0OGNDvaffsXCivt4CUQptlpuNmVBA7dQ==
   dependencies:
     glob "7"
     tslib "1"
@@ -1657,9 +1657,9 @@ tslint@5.18.0:
     tsutils "^2.29.0"
 
 tsutils@3, tsutils@^3.0.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.14.0.tgz#bf8d5a7bae5369331fa0f2b0a5a10bd7f7396c77"
-  integrity sha512-SmzGbB0l+8I0QwsPgjooFRaRvHLBLNYM8SeQ0k6rtNDru5sCGeLJcZdwilNndN+GysuFjF5EIYgN8GfFG6UeUw==
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.14.1.tgz#f1d2b93d2a0876481f2f1f98c25ba42bbd7ee860"
+  integrity sha512-kiuZzD1uUA5DxGj/uxbde+ymp6VVdAxdzOIlAFbYKrPyla8/uiJ9JLBm1QsPhOm4Muj0/+cWEDP99yoCUcSl6Q==
   dependencies:
     tslib "^1.8.1"
 
@@ -1682,23 +1682,23 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
-type-coverage-core@2.1.0, type-coverage-core@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/type-coverage-core/-/type-coverage-core-2.1.0.tgz#449cd977f9d595a1a5dda87eb28d20b82bbd2af0"
-  integrity sha512-5tvqsbrdM6RzA/dCow5k++BcPnBhxI9jl1pbTmb3H1PmhxH2De2LXQU16QCiIohJ5KWqajp9EFed4ii02ZplzQ==
+type-coverage-core@2.2.0-alpha.2, type-coverage-core@^2.2.0-alpha.2:
+  version "2.2.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/type-coverage-core/-/type-coverage-core-2.2.0-alpha.2.tgz#7e096665bb78ae40ed44af92e4496efee4a0e52a"
+  integrity sha512-Ve4uQaQAlPL8ukV6hLF3E5oM5SsXPeZ6jDk1/IWVxB2oIJHdzr4FFTZgrg195cY8B9tD+e3+9CXA/Z7c99Vg2Q==
   dependencies:
     minimatch "3"
-    ts-lib-utils "^2.1.0"
+    ts-lib-utils "^2.2.0-alpha.2"
     tslib "1"
     tsutils "3"
 
-type-coverage@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/type-coverage/-/type-coverage-2.1.0.tgz#130da32fdf8c540c3c4b3ddacc8d6e6c1b042df1"
-  integrity sha512-mcE0P14UK+vMN9OzNJzBb/tDWGCDYmlRbc8B0bYcDCH1wsqv9gTDbj/qezHZDiMWKnvnunDs5i9qo4wzAdlQ+A==
+type-coverage@2.2.0-alpha.2:
+  version "2.2.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/type-coverage/-/type-coverage-2.2.0-alpha.2.tgz#e0b27f3b3ab38931efa0e2b7fa039f7d4275aa25"
+  integrity sha512-2p49p3PUh2jz0GDot+Rw4PyGeJsrGsDmBNFD6NzLrgje5fV1fdgKcjyOYyVzuDwobbyBQ8FIeS/vMr6llO6alg==
   dependencies:
     minimist "1.2.0"
-    type-coverage-core "^2.1.0"
+    type-coverage-core "^2.2.0-alpha.2"
 
 typescript@3.5.3:
   version "3.5.3"
