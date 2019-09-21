@@ -29,21 +29,21 @@
   },
   "main": "./extension",
   "dependencies": {
-    "type-coverage-core": "2.2.0",
-    "typescript": "3.6.2"
+    "type-coverage-core": "2.3.0",
+    "typescript": "3.6.3"
   },
   "typeCoverage": {
     "atLeast": 97
   },
   "devDependencies": {
-    "@commitlint/cli": "8.1.0",
-    "@commitlint/config-conventional": "8.1.0",
-    "@types/node": "12.7.4",
+    "@commitlint/cli": "8.2.0",
+    "@commitlint/config-conventional": "8.2.0",
+    "@types/node": "12.7.5",
     "markdownlint-cli": "0.18.0",
-    "tslint": "5.19.0",
+    "tslint": "5.20.0",
     "tslint-config-standard": "^8.0.1",
     "tslint-sonarts": "1.9.0",
-    "type-coverage": "2.2.0",
+    "type-coverage": "2.3.0",
     "vscode": "1.1.36"
   },
   "keywords": [
