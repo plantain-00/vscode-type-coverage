@@ -30,7 +30,7 @@
   "main": "./extension",
   "dependencies": {
     "type-coverage-core": "2.3.1",
-    "typescript": "3.7.2"
+    "typescript": "3.7.3"
   },
   "typeCoverage": {
     "atLeast": 97
