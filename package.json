@@ -30,7 +30,7 @@
   "main": "./extension",
   "dependencies": {
     "type-coverage-core": "2.3.1",
-    "typescript": "3.7.3"
+    "typescript": "3.7.4"
   },
   "typeCoverage": {
     "atLeast": 97
@@ -38,8 +38,8 @@
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
-    "@types/node": "12.12.17",
-    "markdownlint-cli": "0.19.0",
+    "@types/node": "12.12.21",
+    "markdownlint-cli": "0.20.0",
     "tslint": "5.20.1",
     "tslint-config-standard": "9.0.0",
     "tslint-sonarts": "1.9.0",
