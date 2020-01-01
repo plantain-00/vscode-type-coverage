@@ -13,7 +13,7 @@ function lint(textDocument?: vscode.TextDocument) {
   const files = textDocument
     ? [textDocument.fileName]
     : undefined
-  typeCoverage.lint(vscode.workspace.rootPath!, { files, oldProgram }).then((result) => {
+  typeCoverage.lint(vscode.workspace.rootPath!, { files, oldProgram, absolutePath: true }).then((result) => {
     oldProgram = result.program
     const diagnosticsMap = new Map<string, vscode.Diagnostic[]>()
     for (const anyObject of result.anys) {

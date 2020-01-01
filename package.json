@@ -29,7 +29,7 @@
   },
   "main": "./extension",
   "dependencies": {
-    "type-coverage-core": "2.3.1",
+    "type-coverage-core": "2.4.0",
     "typescript": "3.7.4"
   },
   "typeCoverage": {
@@ -43,7 +43,7 @@
     "tslint": "5.20.1",
     "tslint-config-standard": "9.0.0",
     "tslint-sonarts": "1.9.0",
-    "type-coverage": "2.3.1",
+    "type-coverage": "2.4.0",
     "vscode": "1.1.36"
   },
   "keywords": [
