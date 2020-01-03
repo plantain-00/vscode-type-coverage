@@ -13,30 +13,32 @@ function lint(textDocument?: vscode.TextDocument) {
   const files = textDocument
     ? [textDocument.fileName]
     : undefined
-  typeCoverage.lint(vscode.workspace.rootPath!, { files, oldProgram, absolutePath: true }).then((result) => {
-    oldProgram = result.program
-    const diagnosticsMap = new Map<string, vscode.Diagnostic[]>()
-    for (const anyObject of result.anys) {
-      const diagnostic = new vscode.Diagnostic(
-        new vscode.Range(
-          new vscode.Position(anyObject.line, anyObject.character),
-          new vscode.Position(anyObject.line, anyObject.character + anyObject.text.length)
-        ),
-        `The type of '${anyObject.text}' is 'any'`,
-        vscode.DiagnosticSeverity.Information)
-      diagnostic.code = anyObject.text
-      diagnostic.source = extensionDisplayName
-      if (!diagnosticsMap.has(anyObject.file)) {
-        diagnosticsMap.set(anyObject.file, [])
+  vscode.workspace.workspaceFolders?.forEach((workspace) => {
+    typeCoverage.lint(workspace.uri.fsPath, { files, oldProgram }).then((result) => {
+      oldProgram = result.program
+      const diagnosticsMap = new Map<string, vscode.Diagnostic[]>()
+      for (const anyObject of result.anys) {
+        const diagnostic = new vscode.Diagnostic(
+          new vscode.Range(
+            new vscode.Position(anyObject.line, anyObject.character),
+            new vscode.Position(anyObject.line, anyObject.character + anyObject.text.length)
+          ),
+          `The type of '${anyObject.text}' is 'any'`,
+          vscode.DiagnosticSeverity.Information)
+        diagnostic.code = anyObject.text
+        diagnostic.source = extensionDisplayName
+        if (!diagnosticsMap.has(anyObject.file)) {
+          diagnosticsMap.set(anyObject.file, [])
+        }
+        diagnosticsMap.get(anyObject.file)!.push(diagnostic)
       }
-      diagnosticsMap.get(anyObject.file)!.push(diagnostic)
-    }
-    if (textDocument) {
-      diagnosticCollection.delete(vscode.Uri.file(textDocument.fileName))
-    }
-    for (const [file, diagnostics] of diagnosticsMap) {
-      diagnosticCollection.set(vscode.Uri.file(file), diagnostics)
-    }
+      if (textDocument) {
+        diagnosticCollection.delete(vscode.Uri.file(textDocument.fileName))
+      }
+      for (const [file, diagnostics] of diagnosticsMap) {
+        diagnosticCollection.set(vscode.Uri.file(file), diagnostics)
+      }
+    })
   })
 }
 
