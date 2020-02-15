@@ -38,8 +38,8 @@
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
-    "@types/node": "13.7.0",
-    "markdownlint-cli": "0.21.0",
+    "@types/node": "13.7.1",
+    "markdownlint-cli": "0.22.0",
     "tslint": "6.0.0",
     "tslint-config-standard": "9.0.0",
     "tslint-sonarts": "1.9.0",
