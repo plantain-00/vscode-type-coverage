@@ -38,13 +38,13 @@
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
-    "@types/node": "13.13.0",
+    "@types/node": "13.13.2",
     "markdownlint-cli": "0.22.0",
     "tslint": "6.1.1",
     "tslint-config-standard": "9.0.0",
     "tslint-sonarts": "1.9.0",
     "type-coverage": "2.4.2",
-    "vscode": "1.1.36"
+    "vscode": "1.1.37"
   },
   "keywords": [
     "type",
