@@ -20,15 +20,17 @@ VSCode plugin for type-coverage<https://github.com/plantain-00/type-coverage>.
 
 ## config options in package.json
 
-```json
+```txt
 {
   ...
   "typeCoverage": {
-    "ignoreCatch": true // see LintOptions from https://github.com/plantain-00/type-coverage#api'
+    "ignoreCatch": true
   }
   ...
 }
 ```
+
+the options can be found: <https://github.com/plantain-00/type-coverage#api>
 
 ## develop
 
