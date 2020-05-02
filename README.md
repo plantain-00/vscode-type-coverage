@@ -18,6 +18,18 @@ VSCode plugin for type-coverage<https://github.com/plantain-00/type-coverage>.
 
 <https://marketplace.visualstudio.com/items?itemName=york-yao.vscode-type-coverage>
 
+## config options in package.json
+
+```json
+{
+  ...
+  "typeCoverage": {
+    "ignoreCatch": true // see LintOptions from https://github.com/plantain-00/type-coverage#api'
+  }
+  ...
+}
+```
+
 ## develop
 
 1. `yarn`
