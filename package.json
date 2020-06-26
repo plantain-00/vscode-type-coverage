@@ -18,7 +18,7 @@
     "vscode:prepublish": "npm run build",
     "build": "tsc",
     "watch": "tsc --watch",
-    "lint": "tslint *.ts && commitlint --from=HEAD~1 && markdownlint README.md && type-coverage --at-least 97",
+    "lint": "tslint *.ts && markdownlint README.md && type-coverage --at-least 97",
     "postinstall": "node ./node_modules/vscode/bin/install"
   },
   "categories": [
@@ -36,8 +36,6 @@
     "atLeast": 97
   },
   "devDependencies": {
-    "@commitlint/cli": "8.3.5",
-    "@commitlint/config-conventional": "8.3.4",
     "@types/node": "13.13.2",
     "markdownlint-cli": "0.22.0",
     "tslint": "6.1.1",
