@@ -22,7 +22,6 @@
     "noImplicitAny": true
   },
   "files": [
-    "extension.ts",
-    "lib.d.ts"
+    "extension.ts"
   ]
 }
