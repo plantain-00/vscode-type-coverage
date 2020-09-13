@@ -2,6 +2,8 @@
 
 VSCode plugin for type-coverage<https://github.com/plantain-00/type-coverage>.
 
+This repostory is deprecated, the source code moved to: <https://github.com/plantain-00/type-coverage/tree/master/packages/vscode>
+
 ## features
 
 ![1.png](./resources/1.png)
